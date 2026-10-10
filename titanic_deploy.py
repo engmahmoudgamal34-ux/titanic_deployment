@@ -11,7 +11,6 @@ import streamlit as st
 import joblib as jb
 import pandas as pd
 import numpy as np
-import scikit-learn as sk
 
 
 model = jb.load("dt.pkl")
